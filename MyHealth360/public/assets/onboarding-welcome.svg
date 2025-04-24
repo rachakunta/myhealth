@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="384" viewBox="0 0 512 384" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="256" cy="192" r="150" fill="#F0F9FF" />
+  
+  <!-- Health Journey Path -->
+  <path d="M96 192C96 192 160 96 256 96C352 96 416 192 416 192C416 192 352 288 256 288C160 288 96 192 96 192Z" stroke="#1D70B8" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 8" />
+  
+  <!-- Journey Stages -->
+  <circle cx="120" cy="192" r="16" fill="#F0F0F0" stroke="#1D70B8" stroke-width="3" />
+  <circle cx="256" cy="112" r="16" fill="#F0F0F0" stroke="#1D70B8" stroke-width="3" />
+  <circle cx="392" cy="192" r="16" fill="#F0F0F0" stroke="#1D70B8" stroke-width="3" />
+  <circle cx="256" cy="272" r="16" fill="#F0F0F0" stroke="#1D70B8" stroke-width="3" />
+  
+  <!-- Center Person -->
+  <circle cx="256" cy="192" r="40" fill="#E1EFFE" stroke="#1D70B8" stroke-width="4" />
+  <circle cx="256" cy="174" r="10" fill="#1D70B8" />
+  <path d="M236 205C236 195 246 185 256 185C266 185 276 195 276 205" stroke="#1D70B8" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Health Icons -->
+  <g transform="translate(110, 182)">
+    <rect width="20" height="20" rx="4" fill="#1D70B8" />
+    <path d="M5 10H15M10 5V15" stroke="white" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <g transform="translate(246, 102)">
+    <rect width="20" height="20" rx="4" fill="#1D70B8" />
+    <path d="M5 8H8V15H12V8H15V5H5V8Z" fill="white" />
+  </g>
+  
+  <g transform="translate(382, 182)">
+    <rect width="20" height="20" rx="4" fill="#1D70B8" />
+    <path d="M5 10L8 13L15 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  
+  <g transform="translate(246, 262)">
+    <rect width="20" height="20" rx="4" fill="#1D70B8" />
+    <path d="M10 5C12.7614 5 15 7.23858 15 10C15 12.7614 12.7614 15 10 15C7.23858 15 5 12.7614 5 10C5 7.23858 7.23858 5 10 5Z" stroke="white" stroke-width="2" />
+    <path d="M10 7V10L12 12" stroke="white" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <!-- Connection Lines -->
+  <path d="M156 152L226 126" stroke="#1D70B8" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M286 126L356 152" stroke="#1D70B8" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M356 232L286 258" stroke="#1D70B8" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M226 258L156 232" stroke="#1D70B8" stroke-width="2" stroke-dasharray="4 4" />
+  
+  <!-- Heartbeat Line -->
+  <path d="M56 192H86L96 172L106 212L116 152L126 232L136 172L146 192H176" stroke="#FF6B6B" stroke-width="3" stroke-linecap="round" />
+  <path d="M336 192H366L376 172L386 212L396 152L406 232L416 172L426 192H456" stroke="#FF6B6B" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Bottom Heartbeat Line -->
+  <path d="M176 320H206L216 300L226 340L236 280L246 360L256 300L266 320H296" stroke="#FF6B6B" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Top Progress Bar -->
+  <rect x="192" y="40" width="128" height="10" rx="5" fill="#E0E0E0" />
+  <rect x="192" y="40" width="64" height="10" rx="5" fill="#1D70B8" />
+  
+  <!-- Text Labels -->
+  <text x="256" y="30" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="16" fill="#333333">Health Journey</text>
+</svg>
